@@ -1,0 +1,112 @@
+.offers{
+    margin: 100px auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8%;
+    margin-bottom: 150px;
+    background:white;
+}
+
+.offers-left h1{
+    color: #171717;
+    font-size: 60px;
+    font-weight: 600;
+}
+.offers-left p{
+    color: #171717;
+    font-size: 16px;
+    font-weight: 600;
+}
+.offers-left button{
+    width: 100px;
+    height: 40px;
+    border-radius: 35px;
+    background: #000000;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offers-right img{
+    width: 320px;
+    padding-top: 20px;
+}
+
+/* ----- media query----- */
+
+@media(max-width:1280px){
+    .offers-right img{
+        width: 300px;
+    }
+    .offers-left h1{
+        font-size: 40px;
+    }
+    .offers-left p{
+        font-size: 14px;
+    }
+    .offers-left button{
+        width: 200px;
+        height: 50px;
+        
+        font-size: 18px;
+        margin-top: 25px;
+    }
+}
+@media(max-width:1024px){
+    .offers-right img{
+        width: 200px;
+    }
+}
+@media(max-width:800px){
+    .offers-right{
+        display: none;
+    }
+    .offers{
+        padding: 50px 8%;
+    }
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .container {
+    position: relative;
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  .title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .buy-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: #272829;
+  }
+  
