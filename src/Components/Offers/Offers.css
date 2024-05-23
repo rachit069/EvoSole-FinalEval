@@ -37,6 +37,12 @@
     padding-top: 20px;
 }
 
+.offers-left hr{
+    width: 150px;
+    height: 4px;
+    border-radius: 10px;
+    background: #252525;
+}
 /* ----- media query----- */
 
 @media(max-width:1280px){

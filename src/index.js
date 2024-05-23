@@ -1,12 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import ShopContextProvider from './Context/ShopContext';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <ShopContextProvider>
-        <App />
-    </ShopContextProvider>
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7274615a39c27cc2afbec715cd6e25d621b7deba4120d37ba25ebe3f4d172a90
+size 325

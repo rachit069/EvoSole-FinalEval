@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.css'
 import arrow_icon from '../Assets/arrow.png'
-import image from '../Assets/hero_img.jpg'
+import image from '../Assets/hero_img.png'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -14,11 +15,10 @@ const Hero = () => {
             </div>
             <p><h6>description</h6></p>
         </div>
-        <div className="hero-latest-btn">
-
-            <div>Buy Now</div> 
-            <img src={arrow_icon} alt="" />
-  
+        <div>
+            <Link to='/men'>
+              <button className="hero-latest-btn">Buy Now <img src={arrow_icon} alt="" /></button>
+            </Link>
         </div>
       </div>
       <div className="hero-right">

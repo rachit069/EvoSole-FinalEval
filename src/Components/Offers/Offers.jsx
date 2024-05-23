@@ -9,8 +9,15 @@ const Offers = () => {
   return (
     <div className='offers'>
       <div className="offers-left">
-        <h3>Featured</h3>
+        <center><h3>Featured</h3></center>
         <p> </p>
+        <p> </p>
+        <center><hr /></center>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p>                     </p>
         <div className="image-container">
       <div className="container">
         <h3 className="title">Nike Invincible 3</h3>

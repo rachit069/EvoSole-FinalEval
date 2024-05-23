@@ -6,6 +6,7 @@ import Item from '../Item/Item'
 const NewCollections = () => {
   return (
     <div className='new-collections'>
+      <h3>New Arrivals</h3>
       <hr />
       <div className="collections">
         {new_collection.map((item,i)=>{
